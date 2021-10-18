@@ -1,0 +1,17 @@
+{
+  "name": "OCR-Bot",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "You bot token",
+      "value": ""
+}
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/nonumpa/heroku-buildpack-tesseract"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
